@@ -4,14 +4,15 @@ const classes = require('./totalScoreComponent.scss');
 
 export const TotalScoreComponent: React.FunctionComponent = () => {
   const [totalScore, setTotalScore] = React.useState<number>(0);
+  const scores: number[] = [90, 75, 60, 99, 94, 30];
+
   React.useEffect(() => {
-    const scores: number[] = [10, 20, 30, 40, 50];
     setTotalScore(getTotalScore(scores));
   }, []);
   return (
     <div>
-      <span className={classes.resultBackground}>
-        Students total score: {totalScore}
+      <span className={`jumbotron ${classes.resultBackground}`}>
+        <b>Puntuación total:</b> {totalScore}
       </span>
     </div>
   );

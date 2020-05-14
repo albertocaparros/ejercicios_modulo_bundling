@@ -13,7 +13,6 @@ document.getElementById('imgContainer').appendChild(img);
 
 ReactDOM.render(
   <div>
-    <h1>Hello from React DOM</h1>
     <AverageComponent />
     <TotalScoreComponent />
   </div>,

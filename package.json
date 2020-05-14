@@ -1,7 +1,7 @@
 {
-  "name": "webpack-by-example",
+  "name": "ejercicios_modulo_bundling",
   "version": "1.0.0",
-  "description": "In this sample we are going to setup a web project that can be easily managed\r by webpack.",
+  "description": "Ejercicios del modulo de Bundling para el master de Lemoncode",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --config dev.webpack.config.js",

@@ -1,5 +1,8 @@
-$background: indianred;
+$background: rgb(49, 158, 131);
 
-.result-background {
+:global(.jumbotron).result-background {
   background-color: $background;
+  display: block;
+  width: 80%;
+  margin: auto;
 }

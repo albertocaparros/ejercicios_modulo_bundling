@@ -1,11 +1,15 @@
 $background: teal;
 $jumbotronBackground: darkseagreen;
 
-.result-background {
-  background-color: $background;
-}
-
 :global(.jumbotron).result-background {
   background-color: $jumbotronBackground;
   display: block;
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.title {
+  text-align: center;
+  margin: auto;
 }
