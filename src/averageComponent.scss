@@ -12,4 +12,8 @@ $jumbotronBackground: darkseagreen;
 .title {
   text-align: center;
   margin: auto;
+
+  &:hover {
+    color: DarkCyan;
+  }
 }
